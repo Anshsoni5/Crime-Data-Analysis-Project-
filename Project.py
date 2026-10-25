@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # 🔹 Load Dataset
-df = pd.read_csv("C:/Users/Asus/Downloads/crimedata.csv")
+df = pd.read_csv("crimedata.csv")
 
 # 🔹 Clean Columns
 df.columns = df.columns.str.strip()
